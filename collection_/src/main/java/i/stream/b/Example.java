@@ -13,7 +13,7 @@ public class Example {
     Stream<Integer> s1 = Stream.empty();
 
     Stream<Integer> s2 = Stream.of(5, 7, 8);
-    //  s2.forEach(System.out::println); // source - terminal Operation, without intermediate
+    s2.forEach(System.out::println); // source - terminal Operation, without intermediate
 
     // using generator method
     System.out.println("### s3 :: infinite stream source ###");

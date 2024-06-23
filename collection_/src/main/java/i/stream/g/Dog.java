@@ -1,7 +1,9 @@
 package i.stream.g;
 
+import java.util.Comparator;
+
 public class Dog {
-  private int age;
+  public int age;
 
   public Dog(int age) {
     this.age = age;
@@ -13,5 +15,12 @@ public class Dog {
 
   public void setAge(int age) {
     this.age = age;
+  }
+
+  @Override
+  public String toString() {
+    return "Dog{" +
+      "age=" + age +
+      '}';
   }
 }

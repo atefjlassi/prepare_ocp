@@ -26,7 +26,7 @@ public class Example {
     Comparator<Dog> c2 = (d1, d2) -> d1.getName().compareTo(d2.getName());
 
     // using comparator with TreeSet is a MUST
-    var set = new TreeSet<>(c2);
+    var set = new TreeSet<>(c1);
 
     set.add(new Dog("A", 3));
     set.add(new Dog("D", 2));

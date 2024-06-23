@@ -2,6 +2,7 @@ package example1;
 
 import java.util.ArrayList;
 import java.util.Iterator;
+import java.util.LinkedList;
 import java.util.List;
 
 public class Example {
@@ -9,7 +10,6 @@ public class Example {
   public static void main(String[] args) {
 
     List<Integer> list = new ArrayList<>();
-
     list.add(15); // 0
     list.add(20); // 1
     list.add(23); // 2
@@ -27,6 +27,7 @@ public class Example {
       // list.add(4);
       System.out.println(x);
     }
+
     System.out.println("##### using iterator #####");
     Iterator<Integer> iterator = list.iterator();
     while (iterator.hasNext()) {

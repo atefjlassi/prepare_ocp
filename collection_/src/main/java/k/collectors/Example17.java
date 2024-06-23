@@ -21,8 +21,8 @@ public class Example17 {
     Integer i4 = o2.orElseThrow(() -> new RuntimeException()); // 10
 
     // if o1 contain nothing then o2 , Else return -1
-    Integer i5 = o1.or(() -> o2).orElse(-1);
-
+    Integer i5 = o1.or(() -> o2).orElse(-1); // 10
+    System.out.println(i5);
     o1.ifPresentOrElse(x-> System.out.println(x), () -> System.out.println("there is no value"));
   }
 

@@ -8,10 +8,6 @@ public class Example9 {
 
   public static void main(String[] args) {
     List<String> list = List.of("AAA", "AAA", "B", "CCCCC", "DDDD", "FFFFFF");
-    /**
-     * Partitioning by = is a particular case of grouping by
-     * it divide our list in just TWO Groups = {false=[...], true = [...]}
-     */
 
     System.out.println("\n######## grouping by ######### \n");
     Map<Integer, List<String>> map1 = list.stream()

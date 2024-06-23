@@ -2,6 +2,8 @@ package g.example.queues;
 
 import java.util.ArrayDeque;
 import java.util.Deque;
+import java.util.HashMap;
+import java.util.Map;
 
 public class Example {
 

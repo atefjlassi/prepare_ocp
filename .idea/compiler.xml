@@ -7,14 +7,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="collection_" />
-        <module name="generic" />
+        <module name="oop" />
         <module name="collection" />
+        <module name="generic" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="collection" target="11" />
-      <module name="collection_" target="11" />
-      <module name="generic" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

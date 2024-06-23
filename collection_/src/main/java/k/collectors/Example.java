@@ -1,14 +1,16 @@
 package k.collectors;
 
 import java.util.List;
+import java.util.Map;
 import java.util.Set;
+import java.util.TreeMap;
 import java.util.TreeSet;
 import java.util.stream.Collectors;
 
 public class Example {
 
   public static void main(String[] args) {
-    List<String> list = List.of("AAA", "B", "CCCCC", "DDDD", "FFFFFF");
+    List<String> list = List.of("AAA", "B", "CCCCC", "DDDD", "FFFFFF", "AAA");
 
     List<String> res1 = list.stream()
       // intermediary ops
@@ -23,5 +25,6 @@ public class Example {
      * () -> new TreeSet<>(); ==== TreeSet::new
      */
     TreeSet<String> res3 = list.stream().collect(Collectors.toCollection(TreeSet::new));
+
   }
 }

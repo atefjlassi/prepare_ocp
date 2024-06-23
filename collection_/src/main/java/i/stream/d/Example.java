@@ -6,7 +6,6 @@ public class Example {
 
   public static void main(String[] args) {
     List<String> list = List.of("abcd", "azerty", "uiop");
-
     // java.util.function -> Function<T,R>
     // Function<T,T> --> UnaryOperator<T>
     // Function<T, Boolean> --> Predicate<T>

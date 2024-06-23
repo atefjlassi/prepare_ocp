@@ -3,6 +3,7 @@ package myowntest;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Set;
+import java.util.function.Function;
 
 public class Main {
 
@@ -14,8 +15,13 @@ public class Main {
     list.forEach(s -> System.out.println(s));
 
     System.out.println("######");
+    Function<String, String> mapTo = s -> new String("text:").concat(s);
 
+    list.forEach(s -> {
+        s = "text:".concat(s);
+    });
 
+    System.out.println(list);
   }
 
   public void remove(List<Character> chars) {
@@ -29,4 +35,7 @@ public class Main {
         end;
     });
   }
+
+
+
 }

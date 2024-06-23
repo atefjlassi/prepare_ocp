@@ -11,7 +11,8 @@ public class Example {
     // sorted() / sorted(Comparator)
     list.stream()
       /**
-       * think about the order of intermediate operator when use it, because it can affect performance like distinct() and sorted()
+       * think about the order of intermediate operator when use it,
+       * because it can affect performance like distinct() and sorted()
        */
       .distinct() // remove duplication
       .sorted() // Comparable

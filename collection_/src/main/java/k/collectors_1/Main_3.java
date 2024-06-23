@@ -14,7 +14,7 @@ public class Main_3 {
     Stream<Integer> stream = Stream.of(3, 1, 2, 7, 8, 9);
 
     int result =
-      list.stream() // if there're no elements -> 4
+      list.stream() // if there are no elements -> 4
         .reduce(4, (a, b) -> a + b);
 
     Optional<Integer> result_2 =

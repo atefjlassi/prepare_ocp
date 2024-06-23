@@ -19,7 +19,7 @@ public class Example2 {
 
     // Consumer always consume values and return nothing
     // Generic types are the received values
-    Consumer<String> c1 = s -> System.out.println(s);
+    Consumer<String> c1 = System.out::println;
     c1.accept("Hello !");
 
     BiConsumer<Integer, String> c2 = (a, b) -> System.out.println(a + " ".concat(b));

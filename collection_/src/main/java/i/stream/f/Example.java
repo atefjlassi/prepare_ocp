@@ -29,8 +29,10 @@ public class Example {
 
     var x = list.stream()
       .mapToInt(s -> s.length()) // IntStream (instead of Stream) -> Stream
-      .mapToObj(s -> s) // IntStream ->Stream
+      .mapToObj(s -> s) // IntStream -> Stream
       .mapToInt(s -> s) // Stream -> IntStream
+      .mapToDouble(s -> s)
+
       .sum();
 
     System.out.println("result: " + x);

@@ -15,8 +15,7 @@ public class Example3 {
 
     // Example of BiConsumer
     Map<Integer, String> map = Map.of(10, "ten", 11, "eleven", 12, "twelve");
-    BiConsumer<Integer, String> biConsumer = (k, v) -> System.out.println(
-      k + " - ".concat(v));
+    BiConsumer<Integer, String> biConsumer = (k, v) -> System.out.println(k + " - ".concat(v));
     map.forEach(biConsumer);
 
   }

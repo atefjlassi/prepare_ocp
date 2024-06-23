@@ -8,7 +8,7 @@ public class Example7 {
   public static void main(String[] args) {
     List<String> list = List.of("AAA", "AAA", "B", "CCCCC", "DDDD", "FFFFFF");
 
-    System.out.println("##### just to understande down-streaming ####");
+    System.out.println("##### just to understand down-streaming ####");
     List<Integer> res = list.stream().collect(
       Collectors.mapping(s -> s.length(), // String -> int
         Collectors.filtering(n -> n % 2 == 0,

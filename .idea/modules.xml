@@ -3,8 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/collection_/collection.iml" filepath="$PROJECT_DIR$/collection_/collection.iml" />
-      <module fileurl="file://$PROJECT_DIR$/collection_/collection_.iml" filepath="$PROJECT_DIR$/collection_/collection_.iml" />
-      <module fileurl="file://$PROJECT_DIR$/generic/generic.iml" filepath="$PROJECT_DIR$/generic/generic.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/ocp_with_laur_spilca.iml" filepath="$PROJECT_DIR$/.idea/ocp_with_laur_spilca.iml" />
     </modules>
   </component>

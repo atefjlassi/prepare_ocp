@@ -17,7 +17,7 @@ public class Example3 {
     Foo<?> f2; // any object wildcard
     Foo<? extends Number>  f3; // I can use class and its children
     Foo<? super Number> f4; // I can use class and its parents
-    Foo<Number> f5; // <Integer> its a constraint -> only the precise type is allowed
+    Foo<Number> f5; // <Number> its a constraint -> only the precise type is allowed
 
     /***************************/
 

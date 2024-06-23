@@ -3,7 +3,7 @@ package i.stream.g;
 import java.util.Comparator;
 import java.util.stream.Stream;
 
-public class Example3 {
+public class  Example3 {
 
   public static void main(String[] args) {
     Stream<Cat> stream = Stream.of(

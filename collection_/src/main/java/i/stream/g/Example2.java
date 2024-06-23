@@ -13,6 +13,7 @@ public class Example2 {
     // sorted() / sorted(Comparator)
 
     Comparator<Integer> c = Collections.reverseOrder();
+
     list.stream()
       .distinct()
       .sorted(c)

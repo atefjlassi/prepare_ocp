@@ -21,14 +21,17 @@ public class Example10 {
         .collect(Collectors.summingInt(value -> value.length()));
 //            .collect(Collectors.summingLong(value -> (long) value.length()));
 
-    System.out.println(sum2);
+    System.out.println("sum2: summing int: "+ sum2);
 
     long sum3 =
       list.stream()
         .collect(Collectors.summingLong(value -> (long) value.length()));
 //        .collect(Collectors.summingLong(value -> value.length())); == CF
 
-    System.out.println(sum3);
+    System.out.println("sum3: summing long: "+ sum3);
+
+    double sum4 = list.stream().collect(Collectors.summingDouble(value -> (double) value.length()));
+    System.out.println("sum4: summing double: "+ sum4);
   }
 
 }

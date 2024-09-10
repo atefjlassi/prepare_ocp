@@ -6,7 +6,7 @@ public class Main {
     final int x;
     x = 10;
 
-    final var y = 4; // should be assigned directly
+    final var y = 7; // should be assigned directly, ALERT: 'var' on variable without initializer
   }
 
   void m(final int x) {

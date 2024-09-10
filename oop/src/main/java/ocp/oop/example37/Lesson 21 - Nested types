@@ -1,0 +1,2 @@
+avoid to use nested types in real life, because they high coupling classes.
+need to know them for ocp purpose

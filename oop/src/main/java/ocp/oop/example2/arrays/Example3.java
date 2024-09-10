@@ -27,6 +27,6 @@ public class Example3 {
   private static void m(int [] z) {
   }
 
-  // private static void m1(var z) { // not possible
-  // }
+//   private static void m1(var z) { // not possible
+//   }
 }

@@ -3,8 +3,9 @@ package ocp.oop.example4;
 public class B {
 
 
-/*  B() {
-  }*/
+  /**
+   * B() {}
+   */
 
   B(int x) {
   }

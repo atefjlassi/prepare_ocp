@@ -6,13 +6,14 @@ public class Foo {
   static int y; // cannot use static locally
 
   // should be initialized directly, cannot be given through the constructor (same for all static declarations)
-  static final int z = 0;
+  static final int z;
 
   static final int w;
   // static final int w1; CF
 
   static {
     w = 7;
+    z= 5;
   }
 
 /*  public static void main(String[] args) {

@@ -23,5 +23,6 @@ public class B {
 
   public static void m() {
     // private int x; // CF: access modifier not allowed inside local blocs
+    // public int z; ... kifkif
   }
 }

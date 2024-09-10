@@ -11,7 +11,7 @@ public class Example11Varargs {
     int [] b = {4, 6, 8};
     m(b); // it works fine
     // but
-    // s(1, 2, 3); // CF: the table should be created before and then passing it to the method param
+    // s(1, 2, 3); // CF be created before and then passing it to the method param: the table should
 
     // method signature with varargs => accept array in parameter
     // method signature with arrays => does not accept varargs as parameter

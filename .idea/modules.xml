@@ -3,6 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/collection_/collection.iml" filepath="$PROJECT_DIR$/collection_/collection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/concurrency/concurrency.iml" filepath="$PROJECT_DIR$/concurrency/concurrency.iml" />
+      <module fileurl="file://$PROJECT_DIR$/exceptions/exceptions.iml" filepath="$PROJECT_DIR$/exceptions/exceptions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/exceptions-2/exceptions-2.iml" filepath="$PROJECT_DIR$/exceptions-2/exceptions-2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/exceptions-3/exceptions-3.iml" filepath="$PROJECT_DIR$/exceptions-3/exceptions-3.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/ocp_with_laur_spilca.iml" filepath="$PROJECT_DIR$/.idea/ocp_with_laur_spilca.iml" />
     </modules>
   </component>

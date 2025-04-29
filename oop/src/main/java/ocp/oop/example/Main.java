@@ -12,7 +12,8 @@ public class Main {
     final int x;
     x = 10;
 
-//    final var y = 7; // should be assigned directly, ALERT: 'var' on variable without initializer
+    // should be assigned directly, ALERT: 'var' on variable without initializer
+    // final var y = 7;
 
 
 
